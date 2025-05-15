@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport", content="width=device-width, initial-scale=1.0" />
+
+    <title>Game Pong</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="libraries/dat.gui.min.js" defer></script>
+    <script src="libraries/eia1_voyager_sdk.js" defer></script>
+    <script src="libraries/p5.min.js" defer></script>
+    <script src="libraries/p5.sound.min.js" defer></script>
+    <script src="libraries/howler.js" defer></script>
+    <script src="pong.js" defer></script>
+    <!--script src="back.js" defer></script-->
+  </head>
+
+  <body>
+    <h1 class="glow">Pong Game</h1> 
+    <button class="glowB" id="startButton">Start Game</button>
+    <button class="glowB" id="stopButton">Stop Game</button>
+    <button class="glowB" id="resetButton">Reset Game</button>
+    <h1> </h1> <!-- für Abstand zwischen button & canvas-->
+    <div id="container">
+      <!--canvas class="container" width= "1500" height="825" id="backgroundCanvas"></canvas> <Hintergrund-Canvas -->
+      <canvas class="container" width= "900" height="400" id="board"></canvas> 
+    </div>
+    <p class ="copy"> &lt;&lt;&lt; Greta, Louane, Sina &gt;&gt;&gt; </p>
+    <audio id="music" controls autoplay loop src="vid/pkmn.mp3"></audio>
+  </body>
+</html>

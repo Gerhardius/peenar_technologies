@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "Code",
+			"path": "../../../../../Code"
+		},
+		{
+			"name": "Pong Game 2.0",
+			"path": "../../../../../Pong Game 2.0"
+		},
+		{
+			"name": "vid",
+			"path": "vid"
+		},
+		{
+			"name": "libraries",
+			"path": "libraries"
+		},
+		{
+			"name": "pic",
+			"path": "pic"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pong Game 2.0"
+	}
+}
