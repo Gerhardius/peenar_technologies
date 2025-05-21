@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Spiel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Woop Woop</h1>
+  <div id="controls">
+    <label for="playerCount">Anzahl der Spieler (1–5):</label>
+    <input type="number" id="playerCount" min="1" max="5" value="2" />
+    <button onclick="startGame()">Spiel starten</button>
+    <button onclick="restartGame()">Neustart</button>
+  </div>
+  <div id="game-info">
+    <p id="currentPlayer">Spieler 1 ist am Zug</p>
+    <p id="scores"></p>
+  </div>
+  <div id="board" class="board"></div>
+  <script src="script.js"></script>
+</body>
+</html>
