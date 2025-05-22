@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>POKEMON YIPPIE</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+        <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/2.2.1/aframe/build/aframe-ar.js"></script>
+        
+    </head>
+        <body style="margin: 0px; overflow:hidden">
+            <div id="menu">
+                <img class="pokemon-btn" src="assets/wooper.png" 
+                data-image="https://img.pokemondb.net/sprites/black-white/anim/normal/wooper.gif">
+            </div>
+            <a-scene embedded arjs>
+                <a-marker id="marker" preset="hiro">
+                    <a-entity id="anchor" position="0 0 0"></a-entity>
+                </a-marker>
+                <a-entity camera></a-entity>
+            </a-scene>
+            <script src="ar.js" defer></script>
+        </body>
+</html>
